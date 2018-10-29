@@ -4,6 +4,7 @@ Short script to get the host, service and interval count of an OP5 Monitor maste
 The output is formatted as such: HOSTNAME - HOSTS:#, SERVICES:##, UNIQUE INTERVALS:#,#.#
 
 Here's an example showing a monitor server with some hosts, services and three different intervals:
+
 op5.test.com - HOSTS:1, SERVICES:42, UNIQUE INTERVALS:1,1.0 40,5.0 1,7.0
 
 ## Configure this as a service check
